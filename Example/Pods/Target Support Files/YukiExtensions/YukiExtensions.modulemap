@@ -1,0 +1,6 @@
+framework module YukiExtensions {
+  umbrella header "YukiExtensions-umbrella.h"
+
+  export *
+  module * { export * }
+}

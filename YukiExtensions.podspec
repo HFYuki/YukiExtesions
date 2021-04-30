@@ -1,10 +1,5 @@
-#
-# Be sure to run `pod lib lint YukiExtensions.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
-#
+
+# 参考来源：https://github.com/CaamDau
 
 Pod::Spec.new do |s|
   s.name             = 'YukiExtensions'
@@ -21,22 +16,22 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/792115885@qq.com/YukiExtensions'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/HFYuki/YukiExtesions'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '792115885@qq.com' => '792115885@qq.com' }
-  s.source           = { :git => 'https://github.com/792115885@qq.com/YukiExtensions.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => 'https://github.com/HFYuki/YukiExtesions', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '10.0'
 
-  s.source_files = 'YukiExtensions/Classes/**/*'
+  s.swift_version = ['4.0', '4.2', '5.0', '5.1']
+
+  s.default_subspec = 'Core'
+
+  s.subspec 'Core' do |core|
+    
+    core.source_files = 'YukiExtensions/Classes/Core/**/*'
+  end
   
-  # s.resource_bundles = {
-  #   'YukiExtensions' => ['YukiExtensions/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'YukiCompatible'
+  s.dependency 'CaamDauValue'
 end

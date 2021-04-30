@@ -1,0 +1,6 @@
+framework module Pods_YukiExtensions_Tests {
+  umbrella header "Pods-YukiExtensions_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

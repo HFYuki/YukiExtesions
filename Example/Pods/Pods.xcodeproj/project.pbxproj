@@ -1,0 +1,1325 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04F1ACD3659F501B3A67A54932F3CC7A /* UIImage+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 682E91A3A43DFBCE7F9F318A24AB9589 /* UIImage+YK.swift */; };
+		0970693C92A00B3A40412DDA4880717F /* RegEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 702A460B1F0D4B2C851405EEF88159B2 /* RegEx.swift */; };
+		1098A89B8533F7B01D9F0391B9DBF015 /* CaamDauValue-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95E7AB88DDB37011A4FF5441E3C5C981 /* CaamDauValue-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		120EF7A0F881621F70D064D47B84DCC0 /* Yuki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B98FD61C75166DF129415C22BC71A62 /* Yuki.swift */; };
+		127B3B6F3B76A063D31C56765F18917C /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F0FE0F6B615DCAE9D961A6C754FFB9F /* Value.swift */; };
+		14732BFC3FF616012EB086935F91AF69 /* Pods-YukiExtensions_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FE6BF7802EFF8DAFA62EB735A04F80E7 /* Pods-YukiExtensions_Tests-dummy.m */; };
+		17E4F2058DE81F5367615BB9D0DC816C /* UIButton+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 561178FF2A015E27B75478F539F46C6E /* UIButton+YK.swift */; };
+		203B8043649F32E55EC6DD369BBFECE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D802BD47EE2BC9C780108E8E5F7DDCBB /* Foundation.framework */; };
+		2DA9854B3DE50CCCB7E641F51C5AA79E /* UIStackView+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02AA73914E8D3FDDA3BBA7ABDCE2D212 /* UIStackView+YK.swift */; };
+		35F9947999364FFA093FD4E953F99928 /* YukiCompatible-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 39162D5452C608B3F03B1F15DCDAB1B5 /* YukiCompatible-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A776B4316F9078521CFDDF9266F0CC6 /* Pods-YukiExtensions_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C4EDFA4E1F466AFF22B2BB5870D9F730 /* Pods-YukiExtensions_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52AA691533757F70FBAA725CC8764D31 /* UIColor+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C440CA54BFAC0A0AFC2DE1A4BCE9348 /* UIColor+YK.swift */; };
+		568D636B5A324141842295AF89F2947B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D802BD47EE2BC9C780108E8E5F7DDCBB /* Foundation.framework */; };
+		5CC9146C7F3389AC1E3504446378BB20 /* UserDefaults+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC77688489A827BC59F4670E4F693A98 /* UserDefaults+YK.swift */; };
+		6CA559D9F94BB7991E73C1A6D82ECE47 /* UIScrollView+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467120DEF65D820E777AB32C93F58FA4 /* UIScrollView+YK.swift */; };
+		6F2DDE8CA8B554AC839C270B31A947E1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D802BD47EE2BC9C780108E8E5F7DDCBB /* Foundation.framework */; };
+		78F2CD6EEFE6CD7599393ABC52AC283F /* Pods-YukiExtensions_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EE463DD2E98D13EC1C9A1316D907A2A /* Pods-YukiExtensions_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79A5A1E4263BFBDB00884257 /* YukiExtensionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A5A1E3263BFBDB00884257 /* YukiExtensionHeader.h */; };
+		79A5A1E5263BFBDB00884257 /* YukiExtensionHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 79A5A1E3263BFBDB00884257 /* YukiExtensionHeader.h */; };
+		79A5A1EE263BFC5900884257 /* Yuki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A5A1ED263BFC5900884257 /* Yuki.swift */; };
+		79A5A1EF263BFC5900884257 /* Yuki.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A5A1ED263BFC5900884257 /* Yuki.swift */; };
+		79A5A1F7263BFC7F00884257 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A5A1F6263BFC7F00884257 /* Value.swift */; };
+		79A5A1F8263BFC7F00884257 /* Value.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A5A1F6263BFC7F00884257 /* Value.swift */; };
+		79A5A215263C022B00884257 /* Bundle+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A5A214263C022B00884257 /* Bundle+YK.swift */; };
+		79A5A216263C022B00884257 /* Bundle+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A5A214263C022B00884257 /* Bundle+YK.swift */; };
+		79A5A222263C046600884257 /* NSRegularExpression+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A5A221263C046600884257 /* NSRegularExpression+YK.swift */; };
+		79A5A223263C046600884257 /* NSRegularExpression+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A5A221263C046600884257 /* NSRegularExpression+YK.swift */; };
+		7CDC3D23E009326AEF38D8A67BFECE66 /* YukiExtensions-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59A402557B7C110B1D0C4BDE6284EC3F /* YukiExtensions-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DD6C5D71310AFF73E14BFEC8642B690 /* CaamDauValue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8752190D74484C4B3338B90523965BB4 /* CaamDauValue-dummy.m */; };
+		820C97369419A617479B390BA39A1D98 /* CaamDauValue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7705B6E9D9ACC0A4D25592434ADDFCD /* CaamDauValue.framework */; };
+		821929E6046A544766E1466440D4D74D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D802BD47EE2BC9C780108E8E5F7DDCBB /* Foundation.framework */; };
+		88E805CA9D1C1A11154959792C7383B7 /* TextProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9018C60FF4CCAC1935AE3DFE3505FB /* TextProtocol.swift */; };
+		89CDD310BFB7671FF8690219A8A9E770 /* UIAlertController+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E5D8B3B0573B59B9AF6F659B9FF1EC /* UIAlertController+YK.swift */; };
+		95F3A8775286636E9EB2DAD877B7BC99 /* Pods-YukiExtensions_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2AD29A98316587CC4C69FC7FD94F0C /* Pods-YukiExtensions_Example-dummy.m */; };
+		9D3EB078E994C751A6536AF92CF3CC2A /* Notification+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA392D674DDEFDB42FA53DD5C2BA930 /* Notification+YK.swift */; };
+		A26A271F8A62F71DB79C05FCE62E8814 /* UIView+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BC20DDAE269E03756C4CA9DC1BF7040 /* UIView+YK.swift */; };
+		A79A5C5B1201334AFE18FCCA772B22E0 /* Yuki++.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FBB9BB5B7FD349C6EB015C4E48226C2 /* Yuki++.swift */; };
+		A8014015AAD274D07DFDB34A81A16A46 /* UICollectionView+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = B298DFCBE2D57A58FCE4240AAB3CFD4D /* UICollectionView+YK.swift */; };
+		AD681ABB700EF4122F87FB931FBBD080 /* UIText+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B11EAD4B9E8E4FDB73C7C02338226F /* UIText+YK.swift */; };
+		B58F61A6EC9463AC183A277EF5AFD1B1 /* UIFont+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E1D5EFFD256C3EE3356919B93954E19 /* UIFont+YK.swift */; };
+		BD03AEF33242E283D4CE3DEE21C13317 /* UITableView+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4187022D2711825B6802D6244E277E /* UITableView+YK.swift */; };
+		C55C6B01A6B92EA0EFFDF0339B85F736 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D802BD47EE2BC9C780108E8E5F7DDCBB /* Foundation.framework */; };
+		DAAB95824DBB326C9D743916B6F6B26A /* UIImageView+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = C536C8F84FB60947D6370BE84807DA29 /* UIImageView+YK.swift */; };
+		DDBA13F171E9F5882031AD0D2484F37C /* UILabel+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21ABD09397F642FE5CD7D03454A094E7 /* UILabel+YK.swift */; };
+		E24BF331B7015E0B5468BBAD51B8A1DB /* YukiCompatible-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F2586BA4568BDBE3E644EE32F99083D /* YukiCompatible-dummy.m */; };
+		E6A1253D36D50E63C8B9093AB5335C0C /* Date+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDABD6466330856247561D613F6DE59 /* Date+YK.swift */; };
+		E6B613509DBA236A8C08B22B98951DFB /* YukiCompatible.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C752F139B6962B733883667871F9DC27 /* YukiCompatible.framework */; };
+		E91D670C9F54CD148A4DE8366BDE3228 /* UITabBarController+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916C46489355B71C6936281DD77BE043 /* UITabBarController+YK.swift */; };
+		EE71B7C187CD75FA478544C9C423146E /* String+YK.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEB950A2D88E94BA7B4AE05E0C4BEE18 /* String+YK.swift */; };
+		F98B87EF1548C3FF7FE0F1A7605F15EF /* YukiExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA305D0146EC83725EF956E1DE573B93 /* YukiExtensions-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00BF7925FD168619110A067D4FA5B178 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D557BCBB2CFDE4B96466456C346FE0D;
+			remoteInfo = YukiCompatible;
+		};
+		228F5E034D6DDF7FC4EE4F5EAE7730D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC58FEED880216552BD2CA697973868;
+			remoteInfo = "Pods-YukiExtensions_Example";
+		};
+		35FC98AD3B17F8557A5F678D314BB165 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA59B60F7C4313D8A5DF04A322D1125;
+			remoteInfo = CaamDauValue;
+		};
+		3A8101544205687E28293450F9535E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D557BCBB2CFDE4B96466456C346FE0D;
+			remoteInfo = YukiCompatible;
+		};
+		947A7B0B79516BF6BB719F0BB3F569BF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EDA59B60F7C4313D8A5DF04A322D1125;
+			remoteInfo = CaamDauValue;
+		};
+		994858006903B798A053F21577EB48B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C119C5DC8CF0C917AB19EED685166D4D;
+			remoteInfo = YukiExtensions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02AA73914E8D3FDDA3BBA7ABDCE2D212 /* UIStackView+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIStackView+YK.swift"; sourceTree = "<group>"; };
+		0CC346469FE748652961A61E7452BD32 /* Pods-YukiExtensions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YukiExtensions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		11679D34F97885BBDC51CAE291ACB5F2 /* Pods-YukiExtensions_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YukiExtensions_Example-Info.plist"; sourceTree = "<group>"; };
+		1CF4B567C27AD073903093774A3BDEB8 /* Pods_YukiExtensions_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YukiExtensions_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		202C61DD3653D4268DD74A05A9A8A574 /* Pods-YukiExtensions_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YukiExtensions_Example-frameworks.sh"; sourceTree = "<group>"; };
+		21ABD09397F642FE5CD7D03454A094E7 /* UILabel+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UILabel+YK.swift"; sourceTree = "<group>"; };
+		2A2F09F8B63980FB441A8430AC53D5E1 /* Pods-YukiExtensions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YukiExtensions_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		2EE463DD2E98D13EC1C9A1316D907A2A /* Pods-YukiExtensions_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YukiExtensions_Example-umbrella.h"; sourceTree = "<group>"; };
+		32B6DB1FA28CE96A95521C13B172E577 /* Pods_YukiExtensions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YukiExtensions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E5D8B3B0573B59B9AF6F659B9FF1EC /* UIAlertController+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIAlertController+YK.swift"; sourceTree = "<group>"; };
+		39162D5452C608B3F03B1F15DCDAB1B5 /* YukiCompatible-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YukiCompatible-umbrella.h"; sourceTree = "<group>"; };
+		3B7B3DF74AD9ADEBD75F456D76F935F0 /* CaamDauValue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CaamDauValue.debug.xcconfig; sourceTree = "<group>"; };
+		3D2AD29A98316587CC4C69FC7FD94F0C /* Pods-YukiExtensions_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YukiExtensions_Example-dummy.m"; sourceTree = "<group>"; };
+		415EFC626D6C7167A67F0D016F5D9BE2 /* Pods-YukiExtensions_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YukiExtensions_Tests.modulemap"; sourceTree = "<group>"; };
+		467120DEF65D820E777AB32C93F58FA4 /* UIScrollView+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIScrollView+YK.swift"; sourceTree = "<group>"; };
+		4717BE9BD5EB6238E1D55886E7474597 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4C525CAF303A25796F009BF8F38FC5D0 /* CaamDauValue.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CaamDauValue.modulemap; sourceTree = "<group>"; };
+		4E1D5EFFD256C3EE3356919B93954E19 /* UIFont+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIFont+YK.swift"; sourceTree = "<group>"; };
+		561178FF2A015E27B75478F539F46C6E /* UIButton+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIButton+YK.swift"; sourceTree = "<group>"; };
+		59A402557B7C110B1D0C4BDE6284EC3F /* YukiExtensions-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YukiExtensions-umbrella.h"; sourceTree = "<group>"; };
+		5B98FD61C75166DF129415C22BC71A62 /* Yuki.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Yuki.swift; path = YukiCompatible/Yuki.swift; sourceTree = "<group>"; };
+		5BC20DDAE269E03756C4CA9DC1BF7040 /* UIView+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIView+YK.swift"; sourceTree = "<group>"; };
+		5BDA8F88DD3DC6B844890CD136AC479B /* Pods-YukiExtensions_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YukiExtensions_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5C440CA54BFAC0A0AFC2DE1A4BCE9348 /* UIColor+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIColor+YK.swift"; sourceTree = "<group>"; };
+		6317A3FE80217A038AC74322C45C3371 /* Pods-YukiExtensions_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YukiExtensions_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		682E91A3A43DFBCE7F9F318A24AB9589 /* UIImage+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImage+YK.swift"; sourceTree = "<group>"; };
+		6E2289DD180FAD1351B95AB3F52DDF27 /* Pods-YukiExtensions_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YukiExtensions_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6FBB9BB5B7FD349C6EB015C4E48226C2 /* Yuki++.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Yuki++.swift"; sourceTree = "<group>"; };
+		702A460B1F0D4B2C851405EEF88159B2 /* RegEx.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RegEx.swift; sourceTree = "<group>"; };
+		70610F3A2E692CA845EC2A3777B4040F /* YukiCompatible-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YukiCompatible-Info.plist"; sourceTree = "<group>"; };
+		7377A95D18970C653DC7742B9F59D989 /* Pods-YukiExtensions_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YukiExtensions_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		79A5A1E3263BFBDB00884257 /* YukiExtensionHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YukiExtensionHeader.h; path = YukiExtensions/Classes/YukiExtensionHeader.h; sourceTree = "<group>"; };
+		79A5A1ED263BFC5900884257 /* Yuki.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Yuki.swift; sourceTree = "<group>"; };
+		79A5A1F6263BFC7F00884257 /* Value.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Value.swift; sourceTree = "<group>"; };
+		79A5A214263C022B00884257 /* Bundle+YK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Bundle+YK.swift"; sourceTree = "<group>"; };
+		79A5A221263C046600884257 /* NSRegularExpression+YK.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSRegularExpression+YK.swift"; sourceTree = "<group>"; };
+		79BE6D8A6526750F0251D265A99F1A8B /* YukiExtensions.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YukiExtensions.modulemap; sourceTree = "<group>"; };
+		7C9018C60FF4CCAC1935AE3DFE3505FB /* TextProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TextProtocol.swift; sourceTree = "<group>"; };
+		7EB6794CA5A776ADCFC6745630D30E25 /* YukiExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YukiExtensions-prefix.pch"; sourceTree = "<group>"; };
+		810A8E319B5DDA68BAE6937690D570FA /* Pods-YukiExtensions_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YukiExtensions_Example.modulemap"; sourceTree = "<group>"; };
+		8752190D74484C4B3338B90523965BB4 /* CaamDauValue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CaamDauValue-dummy.m"; sourceTree = "<group>"; };
+		8FDABD6466330856247561D613F6DE59 /* Date+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Date+YK.swift"; sourceTree = "<group>"; };
+		916C46489355B71C6936281DD77BE043 /* UITabBarController+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITabBarController+YK.swift"; sourceTree = "<group>"; };
+		92E74812E01A4A1E2867976EE3BD7069 /* CaamDauValue-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CaamDauValue-Info.plist"; sourceTree = "<group>"; };
+		944C5BC738B12A00BEA8CD3E040287C0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		95E7AB88DDB37011A4FF5441E3C5C981 /* CaamDauValue-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CaamDauValue-umbrella.h"; sourceTree = "<group>"; };
+		998B5E10662453C07F866FAF2DF29710 /* YukiCompatible.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YukiCompatible.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F0FE0F6B615DCAE9D961A6C754FFB9F /* Value.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Value.swift; path = Value/Value.swift; sourceTree = "<group>"; };
+		9F2586BA4568BDBE3E644EE32F99083D /* YukiCompatible-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YukiCompatible-dummy.m"; sourceTree = "<group>"; };
+		A034407FC0A249A7B195669A7023D468 /* Pods-YukiExtensions_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YukiExtensions_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6B11EAD4B9E8E4FDB73C7C02338226F /* UIText+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIText+YK.swift"; sourceTree = "<group>"; };
+		AAA392D674DDEFDB42FA53DD5C2BA930 /* Notification+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "Notification+YK.swift"; sourceTree = "<group>"; };
+		AC77688489A827BC59F4670E4F693A98 /* UserDefaults+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UserDefaults+YK.swift"; sourceTree = "<group>"; };
+		AEB950A2D88E94BA7B4AE05E0C4BEE18 /* String+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "String+YK.swift"; sourceTree = "<group>"; };
+		B298DFCBE2D57A58FCE4240AAB3CFD4D /* UICollectionView+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UICollectionView+YK.swift"; sourceTree = "<group>"; };
+		B4FBB1E41F13E1D7D7FA0896FF5326A9 /* YukiExtensions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YukiExtensions.debug.xcconfig; sourceTree = "<group>"; };
+		B6A05A58C080F4852D53D962BE157028 /* Pods-YukiExtensions_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YukiExtensions_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C061FD3B43DDBAA12FD2194BE981B8DD /* YukiCompatible.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YukiCompatible.modulemap; sourceTree = "<group>"; };
+		C4AA859BA5BFCBCF7D9555781D50BFD0 /* Pods-YukiExtensions_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YukiExtensions_Tests-Info.plist"; sourceTree = "<group>"; };
+		C4EDFA4E1F466AFF22B2BB5870D9F730 /* Pods-YukiExtensions_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YukiExtensions_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C536C8F84FB60947D6370BE84807DA29 /* UIImageView+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UIImageView+YK.swift"; sourceTree = "<group>"; };
+		C752F139B6962B733883667871F9DC27 /* YukiCompatible.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YukiCompatible.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7705B6E9D9ACC0A4D25592434ADDFCD /* CaamDauValue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CaamDauValue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA0A7583E8EB7E04E4AB1445B3B3A84D /* YukiCompatible.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YukiCompatible.debug.xcconfig; sourceTree = "<group>"; };
+		CA8A396B0EFFA5D7195AB99FFFD4E2AA /* YukiExtensions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YukiExtensions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD85E33150F9521474EE426A21973400 /* CaamDauValue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CaamDauValue.release.xcconfig; sourceTree = "<group>"; };
+		D1ED60B7CCF1550095820D7AC1ADF827 /* YukiExtensions-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YukiExtensions-Info.plist"; sourceTree = "<group>"; };
+		D802BD47EE2BC9C780108E8E5F7DDCBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DC4187022D2711825B6802D6244E277E /* UITableView+YK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "UITableView+YK.swift"; sourceTree = "<group>"; };
+		E6A30CACCDAC46171D8B044B4FC40BFF /* YukiCompatible-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YukiCompatible-prefix.pch"; sourceTree = "<group>"; };
+		E82DE2FEC08204805A3E14D1E0BA1A99 /* YukiCompatible.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YukiCompatible.release.xcconfig; sourceTree = "<group>"; };
+		EA305D0146EC83725EF956E1DE573B93 /* YukiExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YukiExtensions-dummy.m"; sourceTree = "<group>"; };
+		EA921CADD98266221BAB6603C46D0F86 /* CaamDauValue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CaamDauValue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1DF2CCD4FAAA8C3F29891671A76F35 /* CaamDauValue-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CaamDauValue-prefix.pch"; sourceTree = "<group>"; };
+		F506D9DC1C0587052825B008C34491E6 /* YukiExtensions.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YukiExtensions.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F66B4D41236A45A28A5602CE7D31A010 /* YukiExtensions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YukiExtensions.release.xcconfig; sourceTree = "<group>"; };
+		FE6BF7802EFF8DAFA62EB735A04F80E7 /* Pods-YukiExtensions_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YukiExtensions_Tests-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259FCA33A49E9B0EFE069334DD16CAB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6F2DDE8CA8B554AC839C270B31A947E1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E69C71CB0E27F2874B42C4FA7D36AD9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				821929E6046A544766E1466440D4D74D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42094B818FA1407D4E4B297971340CCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				568D636B5A324141842295AF89F2947B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5213E3ABB14520493F06A0B744737C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				203B8043649F32E55EC6DD369BBFECE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7119FF6A71A9E629926A23CDB52D324 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				820C97369419A617479B390BA39A1D98 /* CaamDauValue.framework in Frameworks */,
+				C55C6B01A6B92EA0EFFDF0339B85F736 /* Foundation.framework in Frameworks */,
+				E6B613509DBA236A8C08B22B98951DFB /* YukiCompatible.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29D3836977B6F3421C5F893DCEB759EA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D802BD47EE2BC9C780108E8E5F7DDCBB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		416AC6CDC8B1BE0DEEB70C6B797FFE7A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C525CAF303A25796F009BF8F38FC5D0 /* CaamDauValue.modulemap */,
+				8752190D74484C4B3338B90523965BB4 /* CaamDauValue-dummy.m */,
+				92E74812E01A4A1E2867976EE3BD7069 /* CaamDauValue-Info.plist */,
+				EE1DF2CCD4FAAA8C3F29891671A76F35 /* CaamDauValue-prefix.pch */,
+				95E7AB88DDB37011A4FF5441E3C5C981 /* CaamDauValue-umbrella.h */,
+				3B7B3DF74AD9ADEBD75F456D76F935F0 /* CaamDauValue.debug.xcconfig */,
+				CD85E33150F9521474EE426A21973400 /* CaamDauValue.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CaamDauValue";
+			sourceTree = "<group>";
+		};
+		4ABC46A9B95F391382A6183ADDBD3DBC /* CaamDauValue */ = {
+			isa = PBXGroup;
+			children = (
+				9F0FE0F6B615DCAE9D961A6C754FFB9F /* Value.swift */,
+				416AC6CDC8B1BE0DEEB70C6B797FFE7A /* Support Files */,
+			);
+			path = CaamDauValue;
+			sourceTree = "<group>";
+		};
+		60245DF345CAA042AC6462B0621BBA90 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				944C5BC738B12A00BEA8CD3E040287C0 /* LICENSE */,
+				4717BE9BD5EB6238E1D55886E7474597 /* README.md */,
+				F506D9DC1C0587052825B008C34491E6 /* YukiExtensions.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6634C17823B8EA821E22D39DC096197D /* Pods-YukiExtensions_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				415EFC626D6C7167A67F0D016F5D9BE2 /* Pods-YukiExtensions_Tests.modulemap */,
+				B6A05A58C080F4852D53D962BE157028 /* Pods-YukiExtensions_Tests-acknowledgements.markdown */,
+				6317A3FE80217A038AC74322C45C3371 /* Pods-YukiExtensions_Tests-acknowledgements.plist */,
+				FE6BF7802EFF8DAFA62EB735A04F80E7 /* Pods-YukiExtensions_Tests-dummy.m */,
+				C4AA859BA5BFCBCF7D9555781D50BFD0 /* Pods-YukiExtensions_Tests-Info.plist */,
+				C4EDFA4E1F466AFF22B2BB5870D9F730 /* Pods-YukiExtensions_Tests-umbrella.h */,
+				0CC346469FE748652961A61E7452BD32 /* Pods-YukiExtensions_Tests.debug.xcconfig */,
+				2A2F09F8B63980FB441A8430AC53D5E1 /* Pods-YukiExtensions_Tests.release.xcconfig */,
+			);
+			name = "Pods-YukiExtensions_Tests";
+			path = "Target Support Files/Pods-YukiExtensions_Tests";
+			sourceTree = "<group>";
+		};
+		67FAF4782305DF029446B8EE06EDEE6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA921CADD98266221BAB6603C46D0F86 /* CaamDauValue.framework */,
+				1CF4B567C27AD073903093774A3BDEB8 /* Pods_YukiExtensions_Example.framework */,
+				32B6DB1FA28CE96A95521C13B172E577 /* Pods_YukiExtensions_Tests.framework */,
+				998B5E10662453C07F866FAF2DF29710 /* YukiCompatible.framework */,
+				CA8A396B0EFFA5D7195AB99FFFD4E2AA /* YukiExtensions.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7023B4E09F46F0A4D32FC3524A02DE5C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				72512AF0F8675C6C01D7699BC38875AE /* Pods-YukiExtensions_Example */,
+				6634C17823B8EA821E22D39DC096197D /* Pods-YukiExtensions_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		72512AF0F8675C6C01D7699BC38875AE /* Pods-YukiExtensions_Example */ = {
+			isa = PBXGroup;
+			children = (
+				810A8E319B5DDA68BAE6937690D570FA /* Pods-YukiExtensions_Example.modulemap */,
+				A034407FC0A249A7B195669A7023D468 /* Pods-YukiExtensions_Example-acknowledgements.markdown */,
+				7377A95D18970C653DC7742B9F59D989 /* Pods-YukiExtensions_Example-acknowledgements.plist */,
+				3D2AD29A98316587CC4C69FC7FD94F0C /* Pods-YukiExtensions_Example-dummy.m */,
+				202C61DD3653D4268DD74A05A9A8A574 /* Pods-YukiExtensions_Example-frameworks.sh */,
+				11679D34F97885BBDC51CAE291ACB5F2 /* Pods-YukiExtensions_Example-Info.plist */,
+				2EE463DD2E98D13EC1C9A1316D907A2A /* Pods-YukiExtensions_Example-umbrella.h */,
+				6E2289DD180FAD1351B95AB3F52DDF27 /* Pods-YukiExtensions_Example.debug.xcconfig */,
+				5BDA8F88DD3DC6B844890CD136AC479B /* Pods-YukiExtensions_Example.release.xcconfig */,
+			);
+			name = "Pods-YukiExtensions_Example";
+			path = "Target Support Files/Pods-YukiExtensions_Example";
+			sourceTree = "<group>";
+		};
+		79A5A1EC263BFC5900884257 /* YukiCompatible */ = {
+			isa = PBXGroup;
+			children = (
+				79A5A1ED263BFC5900884257 /* Yuki.swift */,
+			);
+			name = YukiCompatible;
+			path = YukiCompatible/YukiCompatible;
+			sourceTree = "<group>";
+		};
+		79A5A1F5263BFC7F00884257 /* Value */ = {
+			isa = PBXGroup;
+			children = (
+				79A5A1F6263BFC7F00884257 /* Value.swift */,
+			);
+			name = Value;
+			path = CaamDauValue/Value;
+			sourceTree = "<group>";
+		};
+		8D955099F9E9D0F05E18265DFB9C5C55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C7705B6E9D9ACC0A4D25592434ADDFCD /* CaamDauValue.framework */,
+				C752F139B6962B733883667871F9DC27 /* YukiCompatible.framework */,
+				29D3836977B6F3421C5F893DCEB759EA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B1F0CDD816C9E63DEA23EB636802F341 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C061FD3B43DDBAA12FD2194BE981B8DD /* YukiCompatible.modulemap */,
+				9F2586BA4568BDBE3E644EE32F99083D /* YukiCompatible-dummy.m */,
+				70610F3A2E692CA845EC2A3777B4040F /* YukiCompatible-Info.plist */,
+				E6A30CACCDAC46171D8B044B4FC40BFF /* YukiCompatible-prefix.pch */,
+				39162D5452C608B3F03B1F15DCDAB1B5 /* YukiCompatible-umbrella.h */,
+				CA0A7583E8EB7E04E4AB1445B3B3A84D /* YukiCompatible.debug.xcconfig */,
+				E82DE2FEC08204805A3E14D1E0BA1A99 /* YukiCompatible.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YukiCompatible";
+			sourceTree = "<group>";
+		};
+		BE31AA6414D61BDDC643BB91E9E039FB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				79A5A1E3263BFBDB00884257 /* YukiExtensionHeader.h */,
+				FC92651558EF3DC8B8BD521FB4CB4D22 /* Foundation */,
+				CCD9BC23F508A56965EFD000ADA19818 /* UIKit */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		C64C09AD5A081C9CA1C26D56FEB818B7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				79BE6D8A6526750F0251D265A99F1A8B /* YukiExtensions.modulemap */,
+				EA305D0146EC83725EF956E1DE573B93 /* YukiExtensions-dummy.m */,
+				D1ED60B7CCF1550095820D7AC1ADF827 /* YukiExtensions-Info.plist */,
+				7EB6794CA5A776ADCFC6745630D30E25 /* YukiExtensions-prefix.pch */,
+				59A402557B7C110B1D0C4BDE6284EC3F /* YukiExtensions-umbrella.h */,
+				B4FBB1E41F13E1D7D7FA0896FF5326A9 /* YukiExtensions.debug.xcconfig */,
+				F66B4D41236A45A28A5602CE7D31A010 /* YukiExtensions.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YukiExtensions";
+			sourceTree = "<group>";
+		};
+		CCD9BC23F508A56965EFD000ADA19818 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				37E5D8B3B0573B59B9AF6F659B9FF1EC /* UIAlertController+YK.swift */,
+				561178FF2A015E27B75478F539F46C6E /* UIButton+YK.swift */,
+				B298DFCBE2D57A58FCE4240AAB3CFD4D /* UICollectionView+YK.swift */,
+				5C440CA54BFAC0A0AFC2DE1A4BCE9348 /* UIColor+YK.swift */,
+				4E1D5EFFD256C3EE3356919B93954E19 /* UIFont+YK.swift */,
+				682E91A3A43DFBCE7F9F318A24AB9589 /* UIImage+YK.swift */,
+				C536C8F84FB60947D6370BE84807DA29 /* UIImageView+YK.swift */,
+				21ABD09397F642FE5CD7D03454A094E7 /* UILabel+YK.swift */,
+				467120DEF65D820E777AB32C93F58FA4 /* UIScrollView+YK.swift */,
+				02AA73914E8D3FDDA3BBA7ABDCE2D212 /* UIStackView+YK.swift */,
+				916C46489355B71C6936281DD77BE043 /* UITabBarController+YK.swift */,
+				DC4187022D2711825B6802D6244E277E /* UITableView+YK.swift */,
+				A6B11EAD4B9E8E4FDB73C7C02338226F /* UIText+YK.swift */,
+				5BC20DDAE269E03756C4CA9DC1BF7040 /* UIView+YK.swift */,
+			);
+			name = UIKit;
+			path = YukiExtensions/Classes/Core/UIKit;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				DFB333B30AD1BB4D5F1FF98E083BC4BD /* Development Pods */,
+				8D955099F9E9D0F05E18265DFB9C5C55 /* Frameworks */,
+				E916DE0A461D653299A54A44A16A9F19 /* Pods */,
+				67FAF4782305DF029446B8EE06EDEE6E /* Products */,
+				7023B4E09F46F0A4D32FC3524A02DE5C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DFB333B30AD1BB4D5F1FF98E083BC4BD /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79A5A1F5263BFC7F00884257 /* Value */,
+				79A5A1EC263BFC5900884257 /* YukiCompatible */,
+				EFF1F17EC7E28CD98A1A0745D5EF5560 /* YukiExtensions */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E916DE0A461D653299A54A44A16A9F19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4ABC46A9B95F391382A6183ADDBD3DBC /* CaamDauValue */,
+				FC884F65E5FD375ED2BE4EBF63DE6E4A /* YukiCompatible */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EFF1F17EC7E28CD98A1A0745D5EF5560 /* YukiExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE31AA6414D61BDDC643BB91E9E039FB /* Core */,
+				60245DF345CAA042AC6462B0621BBA90 /* Pod */,
+				C64C09AD5A081C9CA1C26D56FEB818B7 /* Support Files */,
+			);
+			name = YukiExtensions;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FC884F65E5FD375ED2BE4EBF63DE6E4A /* YukiCompatible */ = {
+			isa = PBXGroup;
+			children = (
+				5B98FD61C75166DF129415C22BC71A62 /* Yuki.swift */,
+				B1F0CDD816C9E63DEA23EB636802F341 /* Support Files */,
+			);
+			path = YukiCompatible;
+			sourceTree = "<group>";
+		};
+		FC92651558EF3DC8B8BD521FB4CB4D22 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				6FBB9BB5B7FD349C6EB015C4E48226C2 /* Yuki++.swift */,
+				79A5A214263C022B00884257 /* Bundle+YK.swift */,
+				8FDABD6466330856247561D613F6DE59 /* Date+YK.swift */,
+				AAA392D674DDEFDB42FA53DD5C2BA930 /* Notification+YK.swift */,
+				79A5A221263C046600884257 /* NSRegularExpression+YK.swift */,
+				702A460B1F0D4B2C851405EEF88159B2 /* RegEx.swift */,
+				AEB950A2D88E94BA7B4AE05E0C4BEE18 /* String+YK.swift */,
+				7C9018C60FF4CCAC1935AE3DFE3505FB /* TextProtocol.swift */,
+				AC77688489A827BC59F4670E4F693A98 /* UserDefaults+YK.swift */,
+			);
+			name = Foundation;
+			path = YukiExtensions/Classes/Core/Foundation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5B087C8D9DEDA108808858F4B4928A61 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CDC3D23E009326AEF38D8A67BFECE66 /* YukiExtensions-umbrella.h in Headers */,
+				79A5A1E5263BFBDB00884257 /* YukiExtensionHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CD9763D6932F8FC056AF21F7FE61C54 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A776B4316F9078521CFDDF9266F0CC6 /* Pods-YukiExtensions_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B23D9ECF1B82B9E39011AB949D92DF36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				78F2CD6EEFE6CD7599393ABC52AC283F /* Pods-YukiExtensions_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29FEEBCBC6511EF8F617CA20F287C78 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1098A89B8533F7B01D9F0391B9DBF015 /* CaamDauValue-umbrella.h in Headers */,
+				79A5A1E4263BFBDB00884257 /* YukiExtensionHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F839105FFFAD74550D70457BCE00C734 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35F9947999364FFA093FD4E953F99928 /* YukiCompatible-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D557BCBB2CFDE4B96466456C346FE0D /* YukiCompatible */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFFD202FFF515224FEDFF4303732F03 /* Build configuration list for PBXNativeTarget "YukiCompatible" */;
+			buildPhases = (
+				F839105FFFAD74550D70457BCE00C734 /* Headers */,
+				8A5F4B651489954BAF3AED1A093DEB57 /* Sources */,
+				5213E3ABB14520493F06A0B744737C90 /* Frameworks */,
+				5B0E9BA1990F1243DCF9FA7122A192C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YukiCompatible;
+			productName = YukiCompatible;
+			productReference = 998B5E10662453C07F866FAF2DF29710 /* YukiCompatible.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C119C5DC8CF0C917AB19EED685166D4D /* YukiExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2433BF926580B96CA4916A4AA0E4995D /* Build configuration list for PBXNativeTarget "YukiExtensions" */;
+			buildPhases = (
+				5B087C8D9DEDA108808858F4B4928A61 /* Headers */,
+				11A84EC16048261E299FD69A0F9CB0D4 /* Sources */,
+				B7119FF6A71A9E629926A23CDB52D324 /* Frameworks */,
+				E75D4F07289B29DA880F33CA401B0860 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9D5EB4BB456083418B931D4ECB1C887 /* PBXTargetDependency */,
+				4C00C7D6D48E4BF9EA16B6AF827EF52A /* PBXTargetDependency */,
+			);
+			name = YukiExtensions;
+			productName = YukiExtensions;
+			productReference = CA8A396B0EFFA5D7195AB99FFFD4E2AA /* YukiExtensions.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDC58FEED880216552BD2CA697973868 /* Pods-YukiExtensions_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED100794C9E7B8283082D952B20B582D /* Build configuration list for PBXNativeTarget "Pods-YukiExtensions_Example" */;
+			buildPhases = (
+				B23D9ECF1B82B9E39011AB949D92DF36 /* Headers */,
+				D01BEB45898FD52A05FFCFC83778A77D /* Sources */,
+				259FCA33A49E9B0EFE069334DD16CAB2 /* Frameworks */,
+				14FD0BA37BADFE77BA1180FDBE6634F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23E17F04F7C3753C9A3A0773DB5DE761 /* PBXTargetDependency */,
+				530195B553FE483E01E3CA3F4CD40490 /* PBXTargetDependency */,
+				4356C43B4CB5F85CFFDC929B6E777C41 /* PBXTargetDependency */,
+			);
+			name = "Pods-YukiExtensions_Example";
+			productName = "Pods-YukiExtensions_Example";
+			productReference = 1CF4B567C27AD073903093774A3BDEB8 /* Pods_YukiExtensions_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EDA59B60F7C4313D8A5DF04A322D1125 /* CaamDauValue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CE3FE97A7E2CE50B3144D0EB20A2D44 /* Build configuration list for PBXNativeTarget "CaamDauValue" */;
+			buildPhases = (
+				C29FEEBCBC6511EF8F617CA20F287C78 /* Headers */,
+				82F48489725B7065F4338C35BFB7092A /* Sources */,
+				3E69C71CB0E27F2874B42C4FA7D36AD9 /* Frameworks */,
+				5EC5387B15854F14A3E63F406DA2F3FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CaamDauValue;
+			productName = CaamDauValue;
+			productReference = EA921CADD98266221BAB6603C46D0F86 /* CaamDauValue.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F7B6A25A19B03C75BBD3029A7B6C90EB /* Pods-YukiExtensions_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17E3578D79787D938458E8325CAD4BAD /* Build configuration list for PBXNativeTarget "Pods-YukiExtensions_Tests" */;
+			buildPhases = (
+				7CD9763D6932F8FC056AF21F7FE61C54 /* Headers */,
+				809811D2FA96AA8173469D1E142C3B56 /* Sources */,
+				42094B818FA1407D4E4B297971340CCE /* Frameworks */,
+				1CC88FEB8110B5A8D2C8A64B22C05F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5A812E2F1AC9C417E52F99CB6F65ED08 /* PBXTargetDependency */,
+			);
+			name = "Pods-YukiExtensions_Tests";
+			productName = "Pods-YukiExtensions_Tests";
+			productReference = 32B6DB1FA28CE96A95521C13B172E577 /* Pods_YukiExtensions_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 67FAF4782305DF029446B8EE06EDEE6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EDA59B60F7C4313D8A5DF04A322D1125 /* CaamDauValue */,
+				CDC58FEED880216552BD2CA697973868 /* Pods-YukiExtensions_Example */,
+				F7B6A25A19B03C75BBD3029A7B6C90EB /* Pods-YukiExtensions_Tests */,
+				3D557BCBB2CFDE4B96466456C346FE0D /* YukiCompatible */,
+				C119C5DC8CF0C917AB19EED685166D4D /* YukiExtensions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14FD0BA37BADFE77BA1180FDBE6634F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1CC88FEB8110B5A8D2C8A64B22C05F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B0E9BA1990F1243DCF9FA7122A192C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EC5387B15854F14A3E63F406DA2F3FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75D4F07289B29DA880F33CA401B0860 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11A84EC16048261E299FD69A0F9CB0D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79A5A216263C022B00884257 /* Bundle+YK.swift in Sources */,
+				A79A5C5B1201334AFE18FCCA772B22E0 /* Yuki++.swift in Sources */,
+				E6A1253D36D50E63C8B9093AB5335C0C /* Date+YK.swift in Sources */,
+				79A5A223263C046600884257 /* NSRegularExpression+YK.swift in Sources */,
+				9D3EB078E994C751A6536AF92CF3CC2A /* Notification+YK.swift in Sources */,
+				0970693C92A00B3A40412DDA4880717F /* RegEx.swift in Sources */,
+				EE71B7C187CD75FA478544C9C423146E /* String+YK.swift in Sources */,
+				88E805CA9D1C1A11154959792C7383B7 /* TextProtocol.swift in Sources */,
+				89CDD310BFB7671FF8690219A8A9E770 /* UIAlertController+YK.swift in Sources */,
+				17E4F2058DE81F5367615BB9D0DC816C /* UIButton+YK.swift in Sources */,
+				A8014015AAD274D07DFDB34A81A16A46 /* UICollectionView+YK.swift in Sources */,
+				52AA691533757F70FBAA725CC8764D31 /* UIColor+YK.swift in Sources */,
+				B58F61A6EC9463AC183A277EF5AFD1B1 /* UIFont+YK.swift in Sources */,
+				04F1ACD3659F501B3A67A54932F3CC7A /* UIImage+YK.swift in Sources */,
+				DAAB95824DBB326C9D743916B6F6B26A /* UIImageView+YK.swift in Sources */,
+				DDBA13F171E9F5882031AD0D2484F37C /* UILabel+YK.swift in Sources */,
+				6CA559D9F94BB7991E73C1A6D82ECE47 /* UIScrollView+YK.swift in Sources */,
+				2DA9854B3DE50CCCB7E641F51C5AA79E /* UIStackView+YK.swift in Sources */,
+				E91D670C9F54CD148A4DE8366BDE3228 /* UITabBarController+YK.swift in Sources */,
+				BD03AEF33242E283D4CE3DEE21C13317 /* UITableView+YK.swift in Sources */,
+				AD681ABB700EF4122F87FB931FBBD080 /* UIText+YK.swift in Sources */,
+				A26A271F8A62F71DB79C05FCE62E8814 /* UIView+YK.swift in Sources */,
+				5CC9146C7F3389AC1E3504446378BB20 /* UserDefaults+YK.swift in Sources */,
+				79A5A1F8263BFC7F00884257 /* Value.swift in Sources */,
+				F98B87EF1548C3FF7FE0F1A7605F15EF /* YukiExtensions-dummy.m in Sources */,
+				79A5A1EF263BFC5900884257 /* Yuki.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809811D2FA96AA8173469D1E142C3B56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14732BFC3FF616012EB086935F91AF69 /* Pods-YukiExtensions_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F48489725B7065F4338C35BFB7092A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD6C5D71310AFF73E14BFEC8642B690 /* CaamDauValue-dummy.m in Sources */,
+				127B3B6F3B76A063D31C56765F18917C /* Value.swift in Sources */,
+				79A5A1EE263BFC5900884257 /* Yuki.swift in Sources */,
+				79A5A1F7263BFC7F00884257 /* Value.swift in Sources */,
+				79A5A215263C022B00884257 /* Bundle+YK.swift in Sources */,
+				79A5A222263C046600884257 /* NSRegularExpression+YK.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A5F4B651489954BAF3AED1A093DEB57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				120EF7A0F881621F70D064D47B84DCC0 /* Yuki.swift in Sources */,
+				E24BF331B7015E0B5468BBAD51B8A1DB /* YukiCompatible-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D01BEB45898FD52A05FFCFC83778A77D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F3A8775286636E9EB2DAD877B7BC99 /* Pods-YukiExtensions_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23E17F04F7C3753C9A3A0773DB5DE761 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CaamDauValue;
+			target = EDA59B60F7C4313D8A5DF04A322D1125 /* CaamDauValue */;
+			targetProxy = 35FC98AD3B17F8557A5F678D314BB165 /* PBXContainerItemProxy */;
+		};
+		4356C43B4CB5F85CFFDC929B6E777C41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YukiExtensions;
+			target = C119C5DC8CF0C917AB19EED685166D4D /* YukiExtensions */;
+			targetProxy = 994858006903B798A053F21577EB48B6 /* PBXContainerItemProxy */;
+		};
+		4C00C7D6D48E4BF9EA16B6AF827EF52A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YukiCompatible;
+			target = 3D557BCBB2CFDE4B96466456C346FE0D /* YukiCompatible */;
+			targetProxy = 3A8101544205687E28293450F9535E85 /* PBXContainerItemProxy */;
+		};
+		530195B553FE483E01E3CA3F4CD40490 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YukiCompatible;
+			target = 3D557BCBB2CFDE4B96466456C346FE0D /* YukiCompatible */;
+			targetProxy = 00BF7925FD168619110A067D4FA5B178 /* PBXContainerItemProxy */;
+		};
+		5A812E2F1AC9C417E52F99CB6F65ED08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YukiExtensions_Example";
+			target = CDC58FEED880216552BD2CA697973868 /* Pods-YukiExtensions_Example */;
+			targetProxy = 228F5E034D6DDF7FC4EE4F5EAE7730D3 /* PBXContainerItemProxy */;
+		};
+		D9D5EB4BB456083418B931D4ECB1C887 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CaamDauValue;
+			target = EDA59B60F7C4313D8A5DF04A322D1125 /* CaamDauValue */;
+			targetProxy = 947A7B0B79516BF6BB719F0BB3F569BF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1931CD269154B1F27F653D1D647795C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4FBB1E41F13E1D7D7FA0896FF5326A9 /* YukiExtensions.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YukiExtensions/YukiExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YukiExtensions/YukiExtensions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YukiExtensions/YukiExtensions.modulemap";
+				PRODUCT_MODULE_NAME = YukiExtensions;
+				PRODUCT_NAME = YukiExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		373B3B7C837B5994E0AAC915B7EF3868 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0CC346469FE748652961A61E7452BD32 /* Pods-YukiExtensions_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YukiExtensions_Tests/Pods-YukiExtensions_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YukiExtensions_Tests/Pods-YukiExtensions_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5212D6C7A13994B37AE6B881D8145A6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E82DE2FEC08204805A3E14D1E0BA1A99 /* YukiCompatible.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YukiCompatible/YukiCompatible-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YukiCompatible/YukiCompatible-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YukiCompatible/YukiCompatible.modulemap";
+				PRODUCT_MODULE_NAME = YukiCompatible;
+				PRODUCT_NAME = YukiCompatible;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79B59A1B6A09648ACB5094AA55AAD595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F66B4D41236A45A28A5602CE7D31A010 /* YukiExtensions.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YukiExtensions/YukiExtensions-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YukiExtensions/YukiExtensions-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YukiExtensions/YukiExtensions.modulemap";
+				PRODUCT_MODULE_NAME = YukiExtensions;
+				PRODUCT_NAME = YukiExtensions;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7AC81071BBBCDA97FD3EEBA85E7139DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3B7B3DF74AD9ADEBD75F456D76F935F0 /* CaamDauValue.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CaamDauValue/CaamDauValue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CaamDauValue/CaamDauValue-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CaamDauValue/CaamDauValue.modulemap";
+				PRODUCT_MODULE_NAME = CaamDauValue;
+				PRODUCT_NAME = CaamDauValue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		958517C9E14B2528B3ABFD2FE38651F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD85E33150F9521474EE426A21973400 /* CaamDauValue.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CaamDauValue/CaamDauValue-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CaamDauValue/CaamDauValue-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CaamDauValue/CaamDauValue.modulemap";
+				PRODUCT_MODULE_NAME = CaamDauValue;
+				PRODUCT_NAME = CaamDauValue;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A2BCD7C335893217EA3AD89CDD60AB03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA0A7583E8EB7E04E4AB1445B3B3A84D /* YukiCompatible.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YukiCompatible/YukiCompatible-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YukiCompatible/YukiCompatible-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YukiCompatible/YukiCompatible.modulemap";
+				PRODUCT_MODULE_NAME = YukiCompatible;
+				PRODUCT_NAME = YukiCompatible;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.1;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B94F0FAF588779D5763C041BDB55C678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A2F09F8B63980FB441A8430AC53D5E1 /* Pods-YukiExtensions_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YukiExtensions_Tests/Pods-YukiExtensions_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YukiExtensions_Tests/Pods-YukiExtensions_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B99B89178A6CC353EF895C55E3AF916C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BDA8F88DD3DC6B844890CD136AC479B /* Pods-YukiExtensions_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YukiExtensions_Example/Pods-YukiExtensions_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YukiExtensions_Example/Pods-YukiExtensions_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F1D14DB546F902F5D771996AB8DAEEA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E2289DD180FAD1351B95AB3F52DDF27 /* Pods-YukiExtensions_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YukiExtensions_Example/Pods-YukiExtensions_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YukiExtensions_Example/Pods-YukiExtensions_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17E3578D79787D938458E8325CAD4BAD /* Build configuration list for PBXNativeTarget "Pods-YukiExtensions_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				373B3B7C837B5994E0AAC915B7EF3868 /* Debug */,
+				B94F0FAF588779D5763C041BDB55C678 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2433BF926580B96CA4916A4AA0E4995D /* Build configuration list for PBXNativeTarget "YukiExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1931CD269154B1F27F653D1D647795C7 /* Debug */,
+				79B59A1B6A09648ACB5094AA55AAD595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CE3FE97A7E2CE50B3144D0EB20A2D44 /* Build configuration list for PBXNativeTarget "CaamDauValue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AC81071BBBCDA97FD3EEBA85E7139DB /* Debug */,
+				958517C9E14B2528B3ABFD2FE38651F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED100794C9E7B8283082D952B20B582D /* Build configuration list for PBXNativeTarget "Pods-YukiExtensions_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F1D14DB546F902F5D771996AB8DAEEA1 /* Debug */,
+				B99B89178A6CC353EF895C55E3AF916C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFFD202FFF515224FEDFF4303732F03 /* Build configuration list for PBXNativeTarget "YukiCompatible" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2BCD7C335893217EA3AD89CDD60AB03 /* Debug */,
+				5212D6C7A13994B37AE6B881D8145A6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
