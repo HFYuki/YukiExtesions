@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YukiExtensionHeader.h"
 
 FOUNDATION_EXPORT double YukiExtensionsVersionNumber;
 FOUNDATION_EXPORT const unsigned char YukiExtensionsVersionString[];

@@ -2,10 +2,6 @@ PODS:
   - YukiCompatible (0.2.0)
   - YukiExtensions (0.1.0):
     - YukiCompatible
-    - YukiExtensions/Core (= 0.1.0)
-    - YukiValue
-  - YukiExtensions/Core (0.1.0):
-    - YukiCompatible
     - YukiValue
   - YukiValue (0.1.0)
 
@@ -16,19 +12,18 @@ DEPENDENCIES:
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - YukiValue
-  https://github.com/HFYuki/YukiSpecs.git:
     - YukiCompatible
+    - YukiValue
 
 EXTERNAL SOURCES:
   YukiExtensions:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YukiCompatible: a3373998016cf27f8e35b160c504f413d518d6c2
-  YukiExtensions: 69b13b711ffa2d25d4f66795b6c15f788e8e5f82
+  YukiCompatible: c1b47b87d8bb135f22a05f47e2c64390e1bab918
+  YukiExtensions: 459d1c23e7fe54f4f18ad4430503fe92c0892163
   YukiValue: 51812a9e8a86c66b92813439d0dcdf0fa3d62c55
 
-PODFILE CHECKSUM: 3ed6459fee6b24733911364f916a4c76a0c43676
+PODFILE CHECKSUM: b65ceae3de94e910c93ecd61bd78de8d895b10d4
 
 COCOAPODS: 1.10.1

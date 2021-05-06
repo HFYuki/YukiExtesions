@@ -9,6 +9,6 @@
 #define YukiExtensionHeader_h
 
 @import YukiCompatible;
-@import CaamDauValue;
+@import YukiValue;
 
 #endif /* YukiExtensionHeader_h */

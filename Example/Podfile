@@ -6,7 +6,7 @@ target 'YukiExtensions_Example' do
   source 'https://github.com/CocoaPods/Specs.git'
   pod 'YukiExtensions', :path => '../'
   pod 'YukiValue'
- source 'https://github.com/HFYuki/YukiSpecs'
+# source 'https://github.com/HFYuki/YukiSpecs'
   pod 'YukiCompatible'
   target 'YukiExtensions_Tests' do
     inherit! :search_paths

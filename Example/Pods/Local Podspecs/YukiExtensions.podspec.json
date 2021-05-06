@@ -1,7 +1,7 @@
 {
   "name": "YukiExtensions",
   "version": "0.1.0",
-  "summary": "A short description of YukiExtensions.",
+  "summary": "YukiExtensions常用扩展",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/HFYuki/YukiExtesions",
   "license": {
@@ -24,7 +24,7 @@
     "5.0",
     "5.1"
   ],
-  "default_subspecs": "Core",
+  "source_files": "YukiExtensions/Classes/**/*",
   "dependencies": {
     "YukiCompatible": [
 
@@ -33,11 +33,9 @@
 
     ]
   },
-  "subspecs": [
-    {
-      "name": "Core",
-      "source_files": "YukiExtensions/Classes/Core/**/*"
-    }
+  "frameworks": [
+    "UIKit",
+    "Foundation"
   ],
   "swift_version": "5.1"
 }
