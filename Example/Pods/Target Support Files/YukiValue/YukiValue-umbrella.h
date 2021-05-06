@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double CaamDauValueVersionNumber;
-FOUNDATION_EXPORT const unsigned char CaamDauValueVersionString[];
+FOUNDATION_EXPORT double YukiValueVersionNumber;
+FOUNDATION_EXPORT const unsigned char YukiValueVersionString[];
 

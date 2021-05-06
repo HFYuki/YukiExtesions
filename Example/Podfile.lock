@@ -1,22 +1,22 @@
 PODS:
-  - CaamDauValue (2.1.10)
   - YukiCompatible (0.2.0)
   - YukiExtensions (0.1.0):
-    - CaamDauValue
     - YukiCompatible
     - YukiExtensions/Core (= 0.1.0)
+    - YukiValue
   - YukiExtensions/Core (0.1.0):
-    - CaamDauValue
     - YukiCompatible
+    - YukiValue
+  - YukiValue (0.1.0)
 
 DEPENDENCIES:
-  - CaamDauValue
   - YukiCompatible
   - YukiExtensions (from `../`)
+  - YukiValue
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
-    - CaamDauValue
+    - YukiValue
   https://github.com/HFYuki/YukiSpecs.git:
     - YukiCompatible
 
@@ -25,10 +25,10 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  CaamDauValue: 3e3ee156219e85b2a406058073eb329a61e0b91d
   YukiCompatible: a3373998016cf27f8e35b160c504f413d518d6c2
-  YukiExtensions: a4cc3215631b340ce5c8966c44ab121301ac0c0c
+  YukiExtensions: 69b13b711ffa2d25d4f66795b6c15f788e8e5f82
+  YukiValue: 51812a9e8a86c66b92813439d0dcdf0fa3d62c55
 
-PODFILE CHECKSUM: 758fe749653a13f738cbb1887db684aa2b6d9fe7
+PODFILE CHECKSUM: 3ed6459fee6b24733911364f916a4c76a0c43676
 
 COCOAPODS: 1.10.1

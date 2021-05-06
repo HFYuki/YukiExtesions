@@ -269,15 +269,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-YukiExtensions_Example/Pods-YukiExtensions_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CaamDauValue/CaamDauValue.framework",
 				"${BUILT_PRODUCTS_DIR}/YukiCompatible/YukiCompatible.framework",
 				"${BUILT_PRODUCTS_DIR}/YukiExtensions/YukiExtensions.framework",
+				"${BUILT_PRODUCTS_DIR}/YukiValue/YukiValue.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CaamDauValue.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YukiCompatible.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YukiExtensions.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YukiValue.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

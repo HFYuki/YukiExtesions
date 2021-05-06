@@ -1,12 +1,3 @@
-//Created  on 2019/3/11 by  LCD:https://github.com/liucaide .
-
-/***** 模块文档 *****
- *
- */
-
-
-
-
 import Foundation
 
 public protocol ValueProtocol {
